@@ -1,0 +1,435 @@
+{
+    "user": {
+        "username": "COM-45-17",
+        "first_name": "",
+        "last_name": "",
+        "id": 3
+    },
+    "student": {
+        "id": 27001,
+        "full_name": "James avincii",
+        "adm_no": "COM/45/17",
+        "dob": "1997-04-23",
+        "gender": "M",
+        "school": 1962
+    },
+    "payments": [
+        {
+            "id": 20001,
+            "date": "2019-04-10",
+            "amount": "6260.00",
+            "receipt_no": "TWYT673",
+            "student": 27001,
+            "school": 1878
+        },
+        {
+            "id": 20002,
+            "date": "2019-04-11",
+            "amount": "6000.00",
+            "receipt_no": "EWTY34",
+            "student": 27001,
+            "school": 1878
+        },
+        {
+            "id": 20003,
+            "date": "2019-04-11",
+            "amount": "24500.00",
+            "receipt_no": "YTWTY3",
+            "student": 27001,
+            "school": 1878
+        },
+        {
+            "id": 20004,
+            "date": "2019-04-11",
+            "amount": "34000.00",
+            "receipt_no": "DFFD45",
+            "student": 27001,
+            "school": 1879
+        },
+        {
+            "id": 20005,
+            "date": "2019-04-11",
+            "amount": "17000.00",
+            "receipt_no": "FDFD43",
+            "student": 27001,
+            "school": 1879
+        },
+        {
+            "id": 20006,
+            "date": "2019-04-10",
+            "amount": "9000.00",
+            "receipt_no": "DFG43",
+            "student": 27001,
+            "school": 1879
+        },
+        {
+            "id": 20007,
+            "date": "2019-04-10",
+            "amount": "24000.00",
+            "receipt_no": "DFGF34",
+            "student": 27001,
+            "school": 1879
+        },
+        {
+            "id": 20008,
+            "date": "2019-04-19",
+            "amount": "16700.00",
+            "receipt_no": "FDF456",
+            "student": 27001,
+            "school": 1879
+        },
+        {
+            "id": 20009,
+            "date": "2019-04-11",
+            "amount": "32000.00",
+            "receipt_no": "DRRDG",
+            "student": 27001,
+            "school": 1918
+        },
+        {
+            "id": 20010,
+            "date": "2019-04-15",
+            "amount": "12345.00",
+            "receipt_no": "GDT456",
+            "student": 27001,
+            "school": 1910
+        },
+        {
+            "id": 20011,
+            "date": "2019-04-21",
+            "amount": "454560.00",
+            "receipt_no": "JNK123",
+            "student": 27001,
+            "school": 1910
+        },
+        {
+            "id": 20012,
+            "date": "2019-04-20",
+            "amount": "434543.01",
+            "receipt_no": "KNC345",
+            "student": 27001,
+            "school": 1910
+        },
+        {
+            "id": 20013,
+            "date": "2019-04-07",
+            "amount": "213213.00",
+            "receipt_no": "KLNDC875",
+            "student": 27001,
+            "school": 1910
+        },
+        {
+            "id": 20014,
+            "date": "2019-04-01",
+            "amount": "32000.00",
+            "receipt_no": "KGN123",
+            "student": 27001,
+            "school": 1962
+        },
+        {
+            "id": 20015,
+            "date": "2019-04-12",
+            "amount": "55000.00",
+            "receipt_no": "KGN5456",
+            "student": 27001,
+            "school": 1962
+        }
+    ],
+    "primary_exams": [
+        {
+            "id": 96001,
+            "maths": 78,
+            "english": 56,
+            "kiswahili": 53,
+            "science": 98,
+            "sst": 90,
+            "date": "2019-04-18",
+            "klass": "STD1",
+            "student": 27001,
+            "school": 1878
+        },
+        {
+            "id": 96002,
+            "maths": 10,
+            "english": 89,
+            "kiswahili": 34,
+            "science": 55,
+            "sst": 66,
+            "date": "2019-04-18",
+            "klass": "STD2",
+            "student": 27001,
+            "school": 1878
+        },
+        {
+            "id": 96003,
+            "maths": 43,
+            "english": 56,
+            "kiswahili": 34,
+            "science": 23,
+            "sst": 98,
+            "date": "2019-04-11",
+            "klass": "STD3",
+            "student": 27001,
+            "school": 1878
+        },
+        {
+            "id": 96004,
+            "maths": 47,
+            "english": 12,
+            "kiswahili": 12,
+            "science": 32,
+            "sst": 87,
+            "date": "2019-04-11",
+            "klass": "STD4",
+            "student": 27001,
+            "school": 1878
+        },
+        {
+            "id": 96005,
+            "maths": 17,
+            "english": 98,
+            "kiswahili": 8,
+            "science": 78,
+            "sst": 77,
+            "date": "2019-04-04",
+            "klass": "STD5",
+            "student": 27001,
+            "school": 1879
+        },
+        {
+            "id": 96006,
+            "maths": 56,
+            "english": 78,
+            "kiswahili": 90,
+            "science": 67,
+            "sst": 89,
+            "date": "2019-04-04",
+            "klass": "STD6",
+            "student": 27001,
+            "school": 1879
+        },
+        {
+            "id": 96007,
+            "maths": 56,
+            "english": 45,
+            "kiswahili": 67,
+            "science": 23,
+            "sst": 98,
+            "date": "2019-04-04",
+            "klass": "STD7",
+            "student": 27001,
+            "school": 1879
+        },
+        {
+            "id": 96008,
+            "maths": 45,
+            "english": 67,
+            "kiswahili": 88,
+            "science": 90,
+            "sst": 67,
+            "date": "2019-04-16",
+            "klass": "STD8",
+            "student": 27001,
+            "school": 1879
+        },
+        {
+            "id": 96009,
+            "maths": 67,
+            "english": 76,
+            "kiswahili": 90,
+            "science": 56,
+            "sst": 45,
+            "date": "2019-04-12",
+            "klass": "KCPE",
+            "student": 27001,
+            "school": 1879
+        }
+    ],
+    "secondary_exams": [
+        {
+            "id": 10001,
+            "maths": 45,
+            "english": 56,
+            "kiswahili": 78,
+            "chem": 45,
+            "phy": 45,
+            "bio": 34,
+            "comp": 89,
+            "bst": 45,
+            "agr": 78,
+            "art": 91,
+            "cre": 56,
+            "music": 76,
+            "date": "2019-04-05",
+            "klass": "FORM1",
+            "student": 27001,
+            "school": 1918
+        },
+        {
+            "id": 10002,
+            "maths": 45,
+            "english": 78,
+            "kiswahili": 98,
+            "chem": 67,
+            "phy": 66,
+            "bio": 87,
+            "comp": 65,
+            "bst": 78,
+            "agr": 77,
+            "art": 88,
+            "cre": 99,
+            "music": 78,
+            "date": "2019-04-11",
+            "klass": "FORM 2",
+            "student": 27001,
+            "school": 1910
+        },
+        {
+            "id": 10003,
+            "maths": 89,
+            "english": 89,
+            "kiswahili": 99,
+            "chem": 77,
+            "phy": 56,
+            "bio": 45,
+            "comp": 45,
+            "bst": 66,
+            "agr": 45,
+            "art": 44,
+            "cre": 55,
+            "music": 55,
+            "date": "2019-04-11",
+            "klass": "FORM 3",
+            "student": 27001,
+            "school": 1910
+        },
+        {
+            "id": 10004,
+            "maths": 56,
+            "english": 78,
+            "kiswahili": 66,
+            "chem": 54,
+            "phy": 34,
+            "bio": 90,
+            "comp": 89,
+            "bst": 78,
+            "agr": 67,
+            "art": 56,
+            "cre": 45,
+            "music": 67,
+            "date": "2019-04-18",
+            "klass": "FORM 4",
+            "student": 27001,
+            "school": 1910
+        },
+        {
+            "id": 10005,
+            "maths": 45,
+            "english": 67,
+            "kiswahili": 88,
+            "chem": 66,
+            "phy": 88,
+            "bio": 67,
+            "comp": 88,
+            "bst": 99,
+            "agr": 77,
+            "art": 77,
+            "cre": 54,
+            "music": 0,
+            "date": "2019-04-19",
+            "klass": "KCSE",
+            "student": 27001,
+            "school": 1910
+        }
+    ],
+    "university_exams": [
+        {
+            "id": 44001,
+            "course_code": "COM 111",
+            "course_name": "Intoduction to Computer Science",
+            "date": "2019-04-19",
+            "marks": 73,
+            "student": 27001,
+            "school": null
+        },
+        {
+            "id": 44002,
+            "course_code": "COM 112",
+            "course_name": "Mathemaics for Computer Science",
+            "date": "2019-04-26",
+            "marks": 55,
+            "student": 27001,
+            "school": null
+        },
+        {
+            "id": 44003,
+            "course_code": "COM 113",
+            "course_name": "Procedural Programming",
+            "date": "2019-04-09",
+            "marks": 65,
+            "student": 27001,
+            "school": null
+        },
+        {
+            "id": 44004,
+            "course_code": "COM 114",
+            "course_name": "Discrete Mathematics",
+            "date": "2019-04-01",
+            "marks": 63,
+            "student": 27001,
+            "school": null
+        },
+        {
+            "id": 44005,
+            "course_code": "COM 115",
+            "course_name": "Algebra and Maths",
+            "date": "2019-04-02",
+            "marks": 58,
+            "student": 27001,
+            "school": null
+        },
+        {
+            "id": 44006,
+            "course_code": "COM 116",
+            "course_name": "Compiler Desig",
+            "date": "2019-04-02",
+            "marks": 71,
+            "student": 27001,
+            "school": null
+        }
+    ],
+    "certificates": [
+        {
+            "id": 2001,
+            "date": "2019-04-11",
+            "name": "KCPE",
+            "score": "409",
+            "file": "/media/certificates/kcpe.jpg",
+            "student": 27001
+        },
+        {
+            "id": 2002,
+            "date": "2019-04-12",
+            "name": "KCSE",
+            "score": "A",
+            "file": "/media/certificates/kcse.jpg",
+            "student": 27001
+        },
+        {
+            "id": 2005,
+            "date": "2019-04-23",
+            "name": "Baptism",
+            "score": "N/A",
+            "file": "/media/certificates/Screenshot_1552427331.png",
+            "student": 27001
+        },
+        {
+            "id": 2006,
+            "date": "2019-04-10",
+            "name": "Football",
+            "score": "3",
+            "file": "/media/certificates/sport-img2.jpg",
+            "student": 27001
+        }
+    ]
+}

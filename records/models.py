@@ -41,7 +41,7 @@ class PrimaryExam(models.Model):
     science = models.PositiveIntegerField(null=True, blank=True)
     sst = models.PositiveIntegerField(null=True, blank=True)
     date = models.DateField(null=True, blank=True)
-    student = models.ForeignKey(Student, null=True, blank=True, on_delete=models.CASCADE)
+    student = models.ForeignKey(Student, null=True, related_name='primary_exams', blank=True, on_delete=models.CASCADE)
     school = models.ForeignKey(School, null=True, blank=True, on_delete=models.CASCADE)
     klass = models.CharField("Class", max_length=10, blank=True)
 
@@ -81,7 +81,7 @@ class SecondaryExam(models.Model):
     cre = models.PositiveIntegerField(default=0)
     music = models.PositiveIntegerField(default=0)
     date = models.DateField(blank=True, null=True)
-    student = models.ForeignKey(Student, null=True, blank=True, on_delete=models.CASCADE)
+    student = models.ForeignKey(Student, null=True, blank=True, related_name='secondary_exams', on_delete=models.CASCADE)
     school = models.ForeignKey(School, null=True, blank=True, on_delete=models.CASCADE)
     klass = models.CharField("Class", max_length=10, blank=True)
 
@@ -108,7 +108,7 @@ class UniversityExam(models.Model):
     course_name = models.CharField(max_length=200, null=True, blank=True)
     date = models.DateField(auto_now=False, blank=True, null=True)
     marks = models.PositiveIntegerField(null=True, blank=True)
-    student = models.ForeignKey(Student, null=True, blank=True, on_delete=models.CASCADE)
+    student = models.ForeignKey(Student, null=True, blank=True, related_name='university_exams', on_delete=models.CASCADE)
     school = models.ForeignKey(School, null=True, blank=True, on_delete=models.CASCADE)
 
     def __str__(self):
@@ -118,7 +118,7 @@ class UniversityExam(models.Model):
 class Certificate(models.Model):
     date = models.DateField(null=True, blank=True)
     name = models.CharField(max_length=200, null=True, blank=True)
-    student = models.ForeignKey(Student, null=True, blank=True, on_delete=models.CASCADE)
+    student = models.ForeignKey(Student, null=True, blank=True, related_name='certificates', on_delete=models.CASCADE)
     score = models.CharField(max_length=50, blank=True)
     file = models.ImageField(upload_to="certificates", blank=True, null=True)
 
@@ -128,7 +128,7 @@ class Certificate(models.Model):
 
 class Payment(models.Model):
     date = models.DateField()
-    student = models.ForeignKey(Student, null=True, blank=True, on_delete=models.CASCADE)
+    student = models.ForeignKey(Student, null=True, blank=True, related_name='payments', on_delete=models.CASCADE)
     school = models.ForeignKey(School, null=True, blank=True, on_delete=models.CASCADE)
     amount = models.DecimalField(decimal_places=2, max_digits=8, default=0)
     receipt_no = models.CharField(max_length=100, blank=True)

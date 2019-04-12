@@ -204,20 +204,20 @@ class SecondaryExamInline(admin.TabularInline):
 
 class UniversityExamInline(admin.TabularInline):
     model = UniversityExam
-    # readonly_fields = ('date', 'course_code', 'course_name', 'marks',)
+    readonly_fields = ('date', 'course_code', 'course_name', 'marks',)
     fields = ('date', 'course_code', 'course_name', 'marks',)
     extra = 0
 
 
 class CertificateInline(admin.TabularInline):
     model = Certificate
-    # readonly_fields = (
-    #     'student',
-    #     'name',
-    #     'score',
-    #     'date',
-    #     'file',
-    # )
+    readonly_fields = (
+        'student',
+        'name',
+        'score',
+        'date',
+        'file',
+    )
     fields = (
         'student',
         'name',
@@ -245,7 +245,7 @@ class PaymentInline(admin.TabularInline):
         'receipt_no',
         'date',
         'amount_paid',
-        # "amount"
+        "amount"
     )
 
 
